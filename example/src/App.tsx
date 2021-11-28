@@ -6,7 +6,7 @@ import { RnKakaoMapView } from 'rn-kakao-map';
 export default function App() {
   return (
     <View style={styles.container}>
-      <RnKakaoMapViewManager color="#32a852" style={styles.box} />
+      <RnKakaoMapView color="#32a852" style={styles.box} />
     </View>
   );
 }
